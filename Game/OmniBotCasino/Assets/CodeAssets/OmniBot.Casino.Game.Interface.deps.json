@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "OmniBot.Casino.Game.Interface/1.0.0": {
+        "dependencies": {
+          "OmniBot.Casino.Core": "1.0.0"
+        },
         "runtime": {
           "OmniBot.Casino.Game.Interface.dll": {}
+        }
+      },
+      "OmniBot.Casino.Core/1.0.0": {
+        "runtime": {
+          "OmniBot.Casino.Core.dll": {}
         }
       }
     }
   },
   "libraries": {
     "OmniBot.Casino.Game.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OmniBot.Casino.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
