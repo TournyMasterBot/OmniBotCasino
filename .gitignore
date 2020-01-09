@@ -1,17 +1,37 @@
-## UNITY3D
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
-metadata/
+# =============== #
+# Unity generated #
+# =============== #
 Temp/
+Obj/
+UnityGenerated/
+Library/
+Assets/AssetStoreTools*
 
-!/[Aa]ssets/**/*.meta
-/[Aa]ssets/AssetStoreTools*
-/[Aa]ssets/Plugins/Editor/JetBrains*
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
 
 ExportedObj/
 .consulo/
